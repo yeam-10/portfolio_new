@@ -22,7 +22,7 @@ export const skills = [
     },
     , {
         skills: 'PostgresSQL',
-        porcenge: 80
+        porcenge: 90
     },
     , {
         skills: 'Maria DB',
