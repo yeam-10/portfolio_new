@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import { skills, experiences } from "./profile";
+import { skills, experiences } from "../profile";
 import Link from "next/link";
 
 
@@ -88,7 +88,7 @@ const Index = ()=> (
         </div>
 
 
-        
+
 </Layout>
 
 ) 
