@@ -18,7 +18,7 @@ export const skills = [
     },
     , {
         skills: 'Vue.js',
-        porcenge: 50
+        porcenge: 20
     },
     , {
         skills: 'PostgresSQL',
