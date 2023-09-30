@@ -1,4 +1,6 @@
 import Layout from "../components/Layout";
+import { skills, experiences } from "./profile";
+import Link from "next/link";
 
 
 
@@ -24,6 +26,66 @@ const Index = ()=> (
         </div>
 
         </header>
+
+         {/**Second Second */}
+        
+         <div className="row py-2">
+          <div className="col-md-4">
+                <div className="card bg-ligth">
+                        <div className="card-body">
+                                <h1>Skills</h1>
+                                {
+                                skills.map(({ skills, porcenge }, i) =>(
+                                        <div className="py-3" key={i}><h5>{skills}</h5>
+                                <div className="progress">
+                                        <div className="progress-bar" 
+                                        role="progressbar" 
+                                        style={{ width: `${porcenge}%`}}></div>
+                                </div>
+                                </div>
+                              
+                                ))
+                                }
+                          
+
+                        </div>
+
+                </div>
+
+          </div>
+          <div className="col-md-8">
+                <div className="card bg-ligth">
+                        <div className="card-body">
+                               
+                         <h1>Experiencia</h1>
+                         <ul> 
+                        {
+                        experiences.map(({title, from, to, description}, index) => (
+
+                         <li key={index}>
+                          <h3> {title}</h3>
+                          <h5>{from}-{to}</h5>
+                          <p>{description}</p>
+                        </li>
+                        ))
+                        }
+                         </ul>
+
+                         <Link href="/experiences" passHref legacyBehavior>
+                         <a className="btn btn-text-light"> Know More</a>
+                         
+                         </Link>
+                                         
+                           
+
+                        </div>
+
+                </div>
+
+
+          </div>
+
+        </div>
 </Layout>
 
 ) 
