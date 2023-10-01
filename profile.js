@@ -106,3 +106,31 @@ export const projects = [{
                    },
    
    ]
+
+
+   export const posts = [{
+
+    title : "React",
+    content : "Lorem ",
+    imageURL: "react-galaxia.png"
+
+},
+
+{
+
+    title : "Angular",
+    content : "Lorem ",
+    imageURL: "react-galaxia.png"
+
+},
+
+{
+
+    title : "Python",
+    content : "Lorem ",
+    imageURL: "react-galaxia.png"
+
+},
+
+
+]
