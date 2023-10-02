@@ -16,9 +16,9 @@ const Index = ()=> (
                                 </div>
                                 <div className="col-md-8">
                                         <h1>Anyeimar Requena</h1>
-                                        <h3>Fullstack Desarrollador</h3>
-                                        <p>Lorem orem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
-                                        <a href="/hireme">Hire me</a>
+                                        <h3>Fullstack Desarrollador Jr</h3>
+                                        <p>Ing de Sistemas, con 3 años de experiencia en el desarrollo de software.</p>
+                                        <a href="/blog">Hire me</a>
 
                                 </div>
                         </div>
@@ -71,7 +71,7 @@ const Index = ()=> (
                         }
                          </ul>
 
-                         <Link href="/experiences" passHref legacyBehavior>
+                         <Link href="/github" passHref legacyBehavior>
                          <a className="btn btn-text-light"> Know More</a>
                          
                          </Link>
@@ -111,7 +111,7 @@ const Index = ()=> (
               <div className="card-body">
                 <h3>{name}</h3>
                 <p>{description}</p>
-                <a href="#!">Know More</a>
+                <a href="/github">Know More</a>
               </div>
             </div>
           </div>
@@ -120,7 +120,7 @@ const Index = ()=> (
         <div className="col-md-12 mt-4">
           <div className="text-center">
 
-          <Link href="/portfolio" passHref legacyBehavior>
+          <Link href="/blog" passHref legacyBehavior>
                          <a className="btn btn-outline-light"> Know More</a>
                          
         </Link>

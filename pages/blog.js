@@ -5,8 +5,8 @@ import { posts } from "../profile";
 
 
 const PostCard = ({ post }) => (
-    <div className="col-md-4">
-      <div className="card">
+    <div className="col-md-4 p-2">
+      <div className="card h-100">
         <div className="overflow">
           <img src={post.imageURL} alt="" className="card-img-top" />
         </div>
@@ -14,7 +14,7 @@ const PostCard = ({ post }) => (
           <h1>{post.title}</h1>
           <p>{post.content}</p>
           <Link href={`/post?title=${post.title}`} passHref legacyBehavior>
-          <button className="btn btn-light">Read</button>
+          <button className="btn btn-light">Read</button> 
         </Link>
         </div>
       </div>

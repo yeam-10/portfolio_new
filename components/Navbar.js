@@ -15,7 +15,7 @@ const Navbar = () => (
                 <ul className="navbar-nav ms-auto">
                     <li className="nav-item">
                     <Link href="/blog" passHref legacyBehavior>
-                        <a id="link" className="nav-link active" aria-current="page">Home</a>
+                        <a id="link" className="nav-link active" aria-current="page">Habilidades</a>
                     </Link>
                     </li>
                     <li>
